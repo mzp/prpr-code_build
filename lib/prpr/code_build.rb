@@ -1,7 +1,3 @@
 require "prpr/code_build/version"
-
-module Prpr
-  module CodeBuild
-    # Your code goes here...
-  end
-end
+require "prpr/handler/code_build"
+require "prpr/action/code_build/build"
