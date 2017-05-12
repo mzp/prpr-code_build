@@ -17,7 +17,7 @@ module Prpr
         end
 
         def tag(event)
-          if event.ref =~ %r(staging/(.*))
+          if event.ref =~ %r(review/(.*))
             $1
           else
             nil
